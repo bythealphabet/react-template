@@ -1,7 +1,7 @@
 import React from "react";
 
 function App(props) {
-	return <div className={` `}>is it working? is it </div>;
+  return <h1>BYTHEALPHABET REACT TEMPLATE</h1>;
 }
 
 export default App;
