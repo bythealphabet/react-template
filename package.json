@@ -4,7 +4,6 @@
   "description": "a template for my react projects",
   "main": "src/index.js",
   "scripts": {
-    "clean": "rm -r ./dist ",
     "dev": "webpack serve --env mode=development",
     "dev:analize": "webpack --env mode=development --env presets=analize",
     "prod": "webpack",
