@@ -1,7 +1,7 @@
 module.exports = () => {
-	return {
-		output: {
-			filename: "[chunkhash].js",
-		},
-	};
+  return {
+    output: {
+      filename: "bythe.[chunkhash].js",
+    },
+  };
 };
