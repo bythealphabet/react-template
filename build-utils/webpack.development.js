@@ -1,6 +1,6 @@
-module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
+module.exports = () => {
   return {
-    devtool: "source-map",
+    devtool: "eval-source-map",
     devServer: {
       port: 3000,
       hot: true,
